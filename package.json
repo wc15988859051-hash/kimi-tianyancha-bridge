@@ -1,0 +1,19 @@
+{
+  "name": "kimi-tianyancha-mcp-bridge",
+  "version": "1.0.0",
+  "description": "Kimi 天眼查 MCP Bridge for Vercel Edge",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "vercel": "^33.0.0"
+  },
+  "keywords": ["mcp", "kimi", "tianyancha", "vercel", "edge"],
+  "author": "",
+  "license": "MIT"
+}

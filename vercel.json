@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "functions": {
+    "api/*.js": {
+      "runtime": "edge"
+    }
+  },
+  "routes": [
+    { "src": "/sse", "dest": "/api/index" },
+    { "src": "/messages", "dest": "/api/index" },
+    { "src": "/health", "dest": "/api/index" },
+    { "src": "/poll", "dest": "/api/index" }
+  ],
+  "env": {
+    "KIMI_API_KEY": "@kimi-api-key"
+  }
+}
